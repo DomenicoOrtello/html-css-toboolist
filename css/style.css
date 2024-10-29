@@ -11,7 +11,7 @@
     GENERAL
 -----------------------*/
 body {
-    background-color: #ccc;
+    background-color: #F6F8F9;
     font-family: "Roboto", sans-serif;
 }
 
@@ -21,26 +21,38 @@ ul {
 
 .circle {
     display: inline-block;
-    height: 40px;
-    width: 40px;
-    line-height: 40px;
+    height: 20px;
+    width: 20px;
+    line-height: 20px;
     text-align: center;
     border: 1px solid black;
     border-radius: 100%;
-    /* padding: 10px; */
+}
+
+#red-cross {
+    color: red;
+    border-color: red;
+}
+
+#green-check {
+    color: green;
+    border-color: green;
 }
 
 .btn {
     background: transparent;
-    border: 1px solid;
+    border: 1px solid lightgrey;
     padding: 10px;
     border-radius: 6px;
+    border-color: #C4CBD0;
+    font-size: 10px;
 }
 
 .btn-blue {
-    background-color: blue;
+    background-color:#14AAF5;
     color: #ffffff;
-    border-color: blue;
+    border-color: #14AAF5;
+    font-size: 1opx;
 }
 
 .tag {
@@ -51,10 +63,27 @@ ul {
     border-radius: 12px;
 }
 
-.tag-blue {
-    background-color: #14aaf5;
+h2 {
+    color: #434851;
+    font-size: large;
 }
+
 .tag-purple {
+    background-color: #EC4A9D;
+}
+.tag-green {
+    background-color: #2CC6AB;
+}
+.tag-limegreen {
+    background-color: #A3D116;
+}
+.tag-lightblue {
+    background-color: #14AAF5;
+}
+.tag-orange {
+    background-color: #FF9B00;
+}
+.tag-violet {
     background-color: #ab5de6;
 }
 
@@ -82,9 +111,23 @@ h1 {
     PAGE MAIN
 -----------------------*/
 main {
-    background-color: #ffffff;
     width: 800px;
     margin: auto;
-    border-radius: 10px;
+    border-radius: 100px;
     padding: 20px;
+}
+
+.task-buttons {
+    margin-bottom: 5px;
+    background-color: white;
+    padding-left: 40px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.task-list {
+    background-color: white;
+    padding-left: 40px;
+    padding-top: 30px;
+    padding-bottom: 30px;
 }
